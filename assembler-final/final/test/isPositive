@@ -1,0 +1,12 @@
+VAR 0
+; Read in the number
+RDI 31
+; Check
+LDN 31
+CMP 0
+; Save result in accumulator
+LDN FALSE
+LDN TRUE
+STP
+TRUE: VAR 1
+FALSE: VAR 0

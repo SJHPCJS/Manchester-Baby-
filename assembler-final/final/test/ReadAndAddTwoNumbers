@@ -1,0 +1,13 @@
+VAR 0
+; Read in two numbers
+RDI 31
+RDI 30
+; Do calculation
+LDN 31
+SUB 30
+STO 29
+LDN 0
+SUB 29
+; Store result back
+STO 29
+STP
